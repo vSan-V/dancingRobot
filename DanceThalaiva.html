@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iAmRobo</title>
+    <style>
+        .head{
+            height: 190px;
+            width:130px;
+            background-color: rgb(41, 202, 63);
+            margin: auto;
+            position: relative;
+            top:250px;
+            border-top-right-radius: 30%;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 15%;
+            border-bottom-left-radius:15%;
+
+        }
+        .body{
+            height: 100px;
+            width:100px;
+            background-color: rgb(41, 202, 63);
+            margin: auto;
+            position: relative;
+            top:-50px;
+            border-top-left-radius:35%;
+            border-top-right-radius: 35%;
+            border-bottom-left-radius:15%;
+            border-bottom-right-radius: 15%;
+        }
+        .rh{
+            width: 20px;
+            height: 100px;
+            background-color: rgb(125, 7, 194);
+            margin: auto;
+            position: relative;
+            left:-73px;
+            border-radius: 30%;
+            animation-duration: 2s; 
+            animation-name: rhand;
+             animation-iteration-count: infinite; 
+        }
+      @keyframes rhand {
+        0%{
+            /* transform: rotate(7deg);*/
+            transform-origin: top center;
+            transform: rotate(10deg); 
+            /* top: 0px; */
+      }
+      25%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(20deg); 
+            transform-origin: top center;
+            /* top: 20px; */
+      }
+      50%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(-200deg);
+            transform-origin: top center;
+            /* top: -50px; */
+      }
+      75%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(-20deg);
+            transform-origin: top center;
+            /* top: -50px; */
+      }
+      100%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(30deg);
+            transform-origin: top center;
+            /* top: -50px; */
+      }
+    }
+    
+        .lh{
+            width: 20px;
+            height: 100px;
+            background-color: rgb(125, 7, 194);
+            position: relative;
+            margin: auto;
+            left:70px;
+            bottom: 102px;
+            border-radius: 30%;
+            animation-duration: 2s; 
+            animation-name: rhand;
+            animation-iteration-count: infinite; 
+
+        }
+        
+        .rl{
+            width: 20px;
+            height: 100px;
+            background-color: rgb(125, 7, 194);
+            position: relative;
+            margin: auto;
+            left:-30px;
+            bottom: 47px;
+            border-radius: 30%;
+            animation-duration: 2s; 
+            animation-name: rhand;
+            animation-iteration-count: infinite; 
+
+
+        }
+        @keyframes rhand {
+        0%{
+            /* transform: rotate(7deg);*/
+            transform-origin: top center;
+            transform: rotate(10deg); 
+            /* top: 0px; */
+      }
+      25%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(20deg); 
+            transform-origin: top center;
+            /* top: 20px; */
+      }
+      50%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(-200deg);
+            transform-origin: top center;
+            /* top: -50px; */
+      }
+      75%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(-20deg);
+            transform-origin: top center;
+            /* top: -50px; */
+      }
+      100%{
+            /* transform: rotate(7deg);*/
+            transform: rotate(30deg);
+            transform-origin: top center;
+            /* top: -50px; */
+      }
+    }
+        .ll{
+            width: 20px;
+            height: 100px;
+            background-color: rgb(125, 7, 194);
+            position: relative;
+            margin: auto;
+            left:37px;
+            bottom: 147px;
+            border-radius: 30%;
+             animation-duration: 2s; 
+            animation-name: rhand;
+            animation-iteration-count: infinite; 
+
+
+        }
+        .le{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(253, 253, 253);
+            position: relative;
+            margin: auto;
+            left:-22px;
+            bottom:530px;
+            border-radius: 100%;
+
+
+        }
+        .re{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            margin: auto;
+            left:22px;
+            bottom:560px;
+            border-radius: 100%;
+
+
+        }
+        .ant{
+            height: 70px;
+            width: 10px;
+            background-color: rgb(17, 0, 255);
+            margin: auto;
+            position: relative;
+            bottom: 680px;
+            border-top-left-radius:50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius:20%;
+            border-bottom-right-radius: 20%;
+            
+        }
+        .innle{
+            height: 20px;
+            width: 20px;
+            background-color: rgb(68, 0, 255);
+            position: relative;
+            margin: auto;
+            bottom:655px;
+            border-radius: 100%;
+            left:-22px;
+            animation-name: innright;
+            animation-duration: 5s;
+        }
+        @keyframes innright {
+            
+        }
+        .innre{
+            height: 20px;
+            width: 20px;
+            background-color: rgb(68, 0, 255);
+            position: relative;
+            margin: auto;
+            bottom:675px;
+            border-radius: 100%;
+            left:22px;
+        }
+        .mth{
+            height: 16px;
+            width: 40px;
+            background-color: rgb(252, 252, 252);
+            position: relative;
+            margin: auto;
+            bottom: 650px;
+            
+        }
+    
+
+    </style>
+</head>
+<body style="background-color:rgb(71, 5, 57);">
+    <h3 style="text-align: center; color:red;">I AM ROBOT</h3>
+    <div class="head"></div>
+    <div class="body"></div>
+    <div class="rh"></div>
+    <div class="lh"></div>
+    <div class="rl"></div>
+    <div class="ll"></div>
+    <div class="le"></div>
+    <div class="re"></div>
+    <div class="ant"></div>
+    <div class="innle"></div>
+    <div class="innre"></div>
+    <div class="mth"></div>
+
+
+    
+</body>
+</html>
